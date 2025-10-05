@@ -1,0 +1,63 @@
+.file-upload-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.description {
+  margin: 1rem 0 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.file-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.file-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label-text {
+  font-weight: 500;
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+.file-info {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--bg-secondary);
+  border-radius: 0.375rem;
+  border: 1px solid var(--border-color);
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-form .btn {
+  width: 100%;
+}
+
+.upload-form .btn-primary {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .file-upload-container {
+    max-width: 100%;
+  }
+}
+

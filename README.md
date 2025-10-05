@@ -2,6 +2,28 @@
 
 A modern React + TypeScript frontend for the CV Evaluator project - an AI-powered candidate assessment system.
 
+## 📸 Screenshots
+
+<div align="center">
+
+### 🔄 Loading Screen
+*Waiting for AI evaluation results*
+
+<img src="img/Loading.png" alt="Loading Screen" width="800"/>
+
+---
+
+### 📊 Evaluation Results - Overview
+*Comprehensive candidate assessment with overall scores and recommendations*
+
+<img src="img/Result_First Page.png" alt="Results - First Page" width="800"/>
+
+<img src="img/Result_Second Page.png" alt="Results - Second Page" width="800"/>
+
+</div>
+
+---
+
 ## Features
 
 - 📄 **File Upload**: Upload candidate CV and project report (PDF files)

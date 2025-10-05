@@ -13,7 +13,7 @@ const api = axios.create({
 export const uploadFiles = async (cv: File, project: File): Promise<UploadResponse> => {
   const formData = new FormData();
   formData.append('cv', cv);
-  formData.append('project', project);
+  formData.append('report', project);  // Backend expects 'report' not 'project'
 
   const response = await api.post<UploadResponse>('/upload', formData, {
     headers: {
